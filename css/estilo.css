@@ -1,0 +1,152 @@
+body{
+    height: 100vh;
+   overflow-x: hidden;
+   background: url('/imagem/13042989-fundo-branco-ondulado-suave-gradiente-abstrato-textura-dinamica-de-ondas-liquidas-vetor.jpg');
+   background-size: cover;
+}
+header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2%;
+   box-shadow: 0px 2px 0px  black;
+   margin: 0%;
+   margin-top: 0%;
+  background: linear-gradient(white,rgba(50, 222, 210, 0.57));
+}
+
+
+p{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top: -28%;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+h2{
+    position: relative;
+    left: 48%;
+    top: 4%;
+}
+.img2{
+    position: absolute;
+    left: 74%;
+}
+.h2{
+    position: relative;
+    top: -5%;
+    left: 43%;
+}
+div{
+    position: absolute;
+    left: 44%;
+    top: 75%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.dados{
+    position: relative;
+    top: -3%;
+}
+.economico{
+    position: relative;
+    left: 49%;
+    top: -4%;
+}
+.interior{
+    position: relative;
+    top: 11%;
+    width: 110%;
+    left: -5%;
+}
+.h3{
+    position: relative;
+    top: 12%;
+    left: 45%;
+}
+.p3{
+    position: relative;
+    top: 16%;
+    left: 34%;
+   
+}
+@media(max-width:500px){
+    p{
+        font-size: 12px;
+        position: relative;
+        top: -20%;
+    }
+    h2{
+        position: relative;
+        top: -2%;
+        left: 39%;
+    }
+    div{
+        font-size: 12px;
+        position: relative;
+        top: -31%;
+        left: 30%;
+    }
+    .h2{
+        position: relative;
+        top: -15%;
+        left: 23%;
+    }
+    .dados{
+        position: relative;
+        top: 40%;
+        width: 40%;
+    }
+    .economico{
+        position: relative;
+        top: 40%;
+        left: 20%;
+        width: 40%;
+    }
+    .h3{
+        position: relative;
+        left: 23%;
+    }
+}
+@media(max-width:720px){
+    p{
+        font-size: 14px;
+        position: relative;
+        top: -20%;
+    }
+    h2{
+        position: relative;
+        top: -2%;
+        left: 39%;
+    }
+    div{
+        font-size: 12px;
+        position: relative;
+        top: -31%;
+        left: 30%;
+    }
+    .h2{
+        position: relative;
+        top: -15%;
+        left: 23%;
+    }
+    .dados{
+        position: relative;
+        top: 40%;
+        width: 40%;
+    }
+    .economico{
+        position: relative;
+        top: 40%;
+        left: 20%;
+        width: 40%;
+    }
+    .h3{
+        position: relative;
+        left: 23%;
+    }
+
+
+}
